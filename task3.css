@@ -5,6 +5,7 @@ html,body{
    padding: 0;
    background-color: #68cdd5;
    }
+   
 .container{
    background-color: #68cdd5;
    width: 100%;
@@ -13,7 +14,7 @@ html,body{
 .item{
    display: flex;
    flex-direction: column;
-   margin:10%;
+   margin:13.5%;
    align-items: center;
 }
 
@@ -29,22 +30,26 @@ html,body{
 }
 
 .left,.right{
-   width: 25%;
+   display: flex;
+   justify-content: center;
+   width: 30%;
+   position: relative;
 }
 
-.left{
-   float: left;
-}
-
-.right{
-   float: right;
-}
 
 .footer{
+   display: flex;
    margin-top: 30%;
-   width: 75%;
-   text-align: center; 
+   width: 80%;
+   justify-content: space-between;
 }
+
+.text{
+   position: absolute;
+   padding-top: 80px;
+}
+
+
 
 img{
    max-width: 100%;
