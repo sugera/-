@@ -20,21 +20,26 @@ html,body{
 
 .content{
    text-align: left;
-   font-size: 1rem;
-   margin-top:18%; 
+   font-size: 1.2rem;
+   margin-top:25%; 
 }
 
 .return{ 
    padding-top: 5%;
    margin-left: 5%;
-   width: 10%;
+   width: 2.2rem;
+}
+
+.top{
+   width:8rem;
+   margin-top:-10%;
 }
 
 .left,.right{
    display: flex;
    justify-content: center;
-   width: 4rem;
-   height: 4rem;
+   width: 3.5rem;
+   height: 3.5rem;
    position: relative;
 }
 
@@ -48,7 +53,7 @@ html,body{
 
 .text{
    position: absolute;
-   padding-top: 80px;
+   padding-top: 55px;
 }
 
 
