@@ -20,26 +20,28 @@ html,body{
 
 .content{
    text-align: left;
-   font-size: 1.2rem;
+   font-size: 15px;
    margin-top:25%; 
 }
 
 .return{ 
    padding-top: 5%;
    margin-left: 5%;
-   width: 2.2rem;
+   width: 27px;
+   height: 27px;
 }
 
 .top{
-   width:8rem;
+   width:90.5px;
+   height: 35px;
    margin-top:-10%;
 }
 
 .left,.right{
    display: flex;
    justify-content: center;
-   width: 3.5rem;
-   height: 3.5rem;
+   width: 44px;
+   height: 44px;
    position: relative;
 }
 
@@ -54,6 +56,7 @@ html,body{
 .text{
    position: absolute;
    padding-top: 55px;
+   font-size: 12px;
 }
 
 
@@ -65,5 +68,5 @@ img{
 
 span{
    color:white;
-   line-height: 40px;
+   line-height: 27px;
 }
